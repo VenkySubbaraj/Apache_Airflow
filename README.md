@@ -25,6 +25,11 @@ pip3 install apache-airflow
 airflow db init
 
 ###############################
+To Start The service
+###############################
+airflow webserver -p 8080
+
+###############################
 Create username and password
 ###############################
 airflow users create --username admin --firstname FIRST_NAME --lastname  LAST_NAME --role Admin --email admin@example.org
